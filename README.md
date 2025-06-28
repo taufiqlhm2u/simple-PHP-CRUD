@@ -8,8 +8,9 @@ Sebuah sistem sederhana berbasis **PHP & MySQL** yang digunakan untuk **mengelol
 - 📋 Menampilkan daftar event
 - ✏️ Mengedit informasi event
 - 🗑️ Menghapus data event
-- 🔍 Pencarian data (opsional)
 
- 
-                   
-               
+ ## 🧑‍💻 Teknologi yang Digunakan
+
+- PHP 
+- MySQL
+- HTML + CSS dasar                                
