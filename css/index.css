@@ -1,0 +1,124 @@
+    body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 20px;
+    margin: -8px 0 45px 0;
+    text-transform: capitalize;
+    background-color: #4d4c60;
+    color: #fefaf1;
+}
+header a {
+    text-decoration: none;
+}
+header a button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+header a button:hover {
+    transform: scale(0.9);
+    background-color: #165395;
+    transition: 0.5;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 6px;
+    overflow: scroll;
+    animation: leZoomIn 0.5s;
+}
+main h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+@keyframes leZoomIn {
+    from {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
+thead {
+    background-color: #90c9ff;
+    color: #17171f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+th {
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+tbody {
+    margin: 20px;
+}
+td {
+    padding: 16px 1rem;
+    text-align: center;
+    color: #37404f;
+    text-transform: capitalize;
+}
+td a {
+    text-decoration: none;
+    margin: 0 3px;
+    color: #618cf9;
+}
+td a button {
+    width: 70px;
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+td a #edit {
+    background-color: #fff0c2;
+    color: #a68b00;
+}
+td a #hapus {
+    background-color: #ffcdd2;
+    color: #c62828;
+}
+td a #edit:hover {
+    transform: scale(0.9);
+    transition: 0.5;
+}
+td a #hapus:hover {
+    transform: scale(0.9);
+    transition: 0.5;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #f4f6fb;
+}
+tbody tr:last-of-type {
+    border-bottom: 3px solid #90c9ff;
+}
+tbody tr:hover {
+    background-color: rgba(144, 201, 255, 0.4);
+}
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px;
+    box-sizing: border-box;
+}
